@@ -2,7 +2,7 @@
 
 const config = {
     github: {
-      username: 'arifszn', // Your GitHub org/user name. (Required)
+      username: 'bugresearch', // Your GitHub org/user name. (Required)
       sortBy: 'stars', // stars | updated
       limit: 10, // How many projects to display.
       exclude: {
@@ -11,21 +11,21 @@ const config = {
       },
     },
     social: {
-      linkedin: 'ariful-alam',
-      twitter: 'arif_szn',
-      mastodon: 'arifszn@mastodon.social',
+      linkedin: 'denizbektas',
+      twitter: 'bugresearchdev',
+      mastodon: '',
       facebook: '',
-      instagram: '',
+      instagram: 'bugresearch',
       dribbble: '',
       behance: '',
-      medium: 'arifszn',
-      dev: 'arifszn',
+      medium: '',
+      dev: 'bugresearch',
       stackoverflow: '', // format: userid/username
       skype: '',
-      telegram: '',
-      website: 'https://arifszn.com',
+      telegram: 'bugresearch',
+      website: 'https://bugresearch.dev',
       phone: '',
-      email: 'arifulalamszn@gmail.com',
+      email: 'info@denizbektas.com.tr',
     },
     resume: {
       fileUrl:
@@ -49,40 +49,54 @@ const config = {
     ],
     experiences: [
       {
-        company: 'Company Name',
-        position: 'Position',
-        from: 'September 2021',
+        company: 'Asis Elektronik',
+        position: 'Red Team Security Consultant',
+        from: 'Februrary 2023',
         to: 'Present',
-        companyLink: 'https://example.com',
+        companyLink: 'https://asiselektronik.com.tr',
       },
       {
-        company: 'Company Name',
-        position: 'Position',
-        from: 'July 2019',
-        to: 'August 2021',
-        companyLink: 'https://example.com',
+        company: 'Gais Security',
+        position: 'Jr. Red Team Security Engineer',
+        from: 'February 2023',
+        to: 'March 2023',
+        companyLink: 'https://gaissecurity.com',
+      },
+      {
+        company: 'Efol Yazilim',
+        position: 'Backend Developer',
+        from: 'Agust 2022',
+        to: 'Februrary 203',
+        companyLink: 'https://efol.com.tr',
+      },
+      {
+        company: 'JotForm',
+        position: 'SecOps Intern',
+        from: 'Agust 2022',
+        to: 'September 2022',
+        companyLink: 'https://jotform.com',
       },
     ],
-    /* certifications: [
+    certifications: [
       {
         name: 'Lorem ipsum',
         body: 'Lorem ipsum dolor sit amet',
         year: 'March 2022',
         link: 'https://example.com'
       },
-    ], */
+    ],
     education: [
       {
-        institution: 'Institution Name',
-        degree: 'Degree',
-        from: '2015',
-        to: '2019',
+        institution: 'Firat University',
+        degree: 'MSc. Computer Engineering',
+        from: '2020',
+        to: '2024',
       },
       {
-        institution: 'Institution Name',
-        degree: 'Degree',
-        from: '2012',
-        to: '2014',
+        institution: 'Kemal Hasoglu High School',
+        degree: 'High School',
+        from: '2016',
+        to: '2020',
       },
     ],
   
@@ -106,8 +120,8 @@ const config = {
     // Display blog posts from your medium or dev account. (Optional)
     blog: {
       source: 'dev', // medium | dev
-      username: 'arifszn', // to hide blog section, keep it empty
-      limit: 2, // How many posts to display. Max is 10.
+      username: 'bugresearch', // to hide blog section, keep it empty
+      limit: 10, // How many posts to display. Max is 10.
     },
     googleAnalytics: {
       id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -118,11 +132,11 @@ const config = {
       snippetVersion: 6,
     },
     themeConfig: {
-      defaultTheme: 'winter',
+      defaultTheme: 'dark',
   
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: false,
+      disableSwitch: true,
   
       // Should use the prefers-color-scheme media-query,
       // using user system preferences, instead of the hardcoded defaultTheme
@@ -178,11 +192,7 @@ const config = {
     },
   
     // Optional Footer. Supports plain text or HTML.
-    footer: `Made with <a 
-        class="text-primary" href="https://github.com/arifszn/gitprofile"
-        target="_blank"
-        rel="noreferrer"
-      >GitProfile</a> and ❤️`,
+    footer: `Create with  ❤️`,
   };
   
   export default config;
